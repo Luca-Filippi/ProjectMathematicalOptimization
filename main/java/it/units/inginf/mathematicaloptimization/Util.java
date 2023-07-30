@@ -172,7 +172,7 @@ public class Util {
     }
 
     public static int[] getK() {
-        //Vettore per i vincoli di materiale rotabile
+        //Vettore per i vincoli sul numero di treni che possono circolare contemporaneamente su una linea
         int[] k = new int[2];
         k[0] = 6;
         k[1] = 7;
