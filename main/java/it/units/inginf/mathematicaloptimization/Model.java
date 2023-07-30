@@ -82,7 +82,7 @@ public class Model {
     }
 
     public PointValuePair resolve(int[][] x) {
-        //risoluzione di P(x) descritto dall'equazione 22
+        //risoluzione di P(x) descritto dall'equazione 23
         int[][][] b = ModelUtil.generateB(this.L,this.Srp,this.P,this.Pi,this.S,this.P0,this.Pr,this.Tt,this.Tpi,
                 this.Tpit, this.maxT, this.D, x, this.c);
         double[] objective = new double[1]; //Sarebbe epsilon
