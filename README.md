@@ -7,7 +7,7 @@ Autori: Jiateng Yin, Andrea D’Ariano, Yihui Wang, Lixing Yang, Tao Tang
 
 L'implementazione è statta realizzata in Java, viene utilizzata la libreria Java Apache Commons Math per la parte di definizione del modello matematico e per la risoluzione dei problemi di ottimizzazione.
 
-Viene fornito un esempio di dati per la creazione delle liste di percosi e stazioni.
+Viene fornito un esempio di dati per la creazione delle liste di percosi e stazioni. I file cvs presentati sono gli stessi che mi sono stati forniti dall'autore Jiateng Yin, per l'effettuazione degli esperimenti numerici (saranno presentati nel PPT il giorno dell'orale) ho usato anche altri dati di mia invenzione.
 
 Nella cartella problemEntities definiamo i 3 oggetti principali, ovvero line, path e station secondo le caratteristiche presentate nel paper e dai dati ricevuti da uno degli autori del paper.
 
@@ -22,3 +22,5 @@ Il file Model.java definisce il modello matematico L-CTT presentato nell'equazio
 Il file Alns.java definisce la metodologia risolutiva ALNS, anlogalmente per il file Daln.java, il quale estende la classe Alns e aggiunge il metodo per l'esecuzione dell'inner loop.
 
 Vengono anche forniti 2 file Main uno per l'esecuzione di Alns e uno per l'esecuzione di Dalns.
+
+Nel caso si decidesse di provare il codice, va cambiata la stringa di input nelle righe 47 e 49 di Dalns.java con la stringa del percorso dove sono memorizzati i csv con i dati di input.
